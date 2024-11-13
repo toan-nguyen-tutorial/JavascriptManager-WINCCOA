@@ -1,0 +1,21 @@
+{
+  "name": "publisher",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start":"nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/winccoa-manager": "file:../../../../Siemens/Automation/WinCC_OA/3.20/javascript/@types/winccoa-manager",
+    "winccoa-manager": "file:../../../../Siemens/Automation/WinCC_OA/3.20/javascript/winccoa-manager"
+  },
+  "dependencies": {
+    "express": "^4.21.1",
+    "mqtt": "^5.10.1"
+  }
+}
